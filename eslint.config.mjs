@@ -13,6 +13,7 @@ export default antfu({
   },
   markdown: true,
   yaml: true,
+  ignores: ['dist/', 'node_modules/', 'test/mocks/', 'docs/api/**'],
   rules: {
     'unused-imports/no-unused-vars': 'warn',
     'style/max-statements-per-line': 'off',

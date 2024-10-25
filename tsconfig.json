@@ -28,14 +28,10 @@
     "test/**/*",
     "docs/.vitepress/*",
     "docs/.vitepress/theme/*",
-    "docs/**/*.ts",
-    "docs/**/*.vue",
-    "docs/**/*.md"
+    "vitest.config.ts",
+    "eslint.config.mjs"
   ],
   "exclude": [
     "dist"
-  ],
-  "vueCompilerOptions": {
-    "vitePressExtensions": [".md"]
-  }
+  ]
 }
