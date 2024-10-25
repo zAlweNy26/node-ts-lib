@@ -10,6 +10,7 @@ This is a template to start a new Node.js library using TypeScript.
 - 🔄 *Git hooks*: Built-in git hooks for type checking and linting.
 - 📝 *Changelog generation*: Uses `changelogen` to automatically generate an awesome `CHANGELOG.md`
 - 📚 *Easy docs*: Easily host your library documentation with `vitepress`
+- 👀 *Unit tests*: Setup for testing already present.
 
 ## Getting started
 

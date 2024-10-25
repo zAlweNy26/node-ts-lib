@@ -26,6 +26,16 @@
   "include": [
     "src/**/*",
     "test/**/*",
-    "docs/**/*"
-  ]
+    "docs/.vitepress/*",
+    "docs/.vitepress/theme/*",
+    "docs/**/*.ts",
+    "docs/**/*.vue",
+    "docs/**/*.md"
+  ],
+  "exclude": [
+    "dist"
+  ],
+  "vueCompilerOptions": {
+    "vitePressExtensions": [".md"]
+  }
 }

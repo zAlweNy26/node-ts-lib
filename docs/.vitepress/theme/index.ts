@@ -1,8 +1,9 @@
+/* eslint-disable ts/no-unsafe-assignment */
 import DefaultTheme from 'vitepress/theme'
 import Layout from './Layout.vue'
 import './custom.css'
 
 export default {
-	extends: DefaultTheme,
-	Layout,
+  extends: DefaultTheme,
+  Layout,
 }
