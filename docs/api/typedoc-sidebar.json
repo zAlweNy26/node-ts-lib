@@ -1,0 +1,12 @@
+[
+  {
+    "text": "Variables",
+    "collapsed": true,
+    "items": [
+      {
+        "text": "hello",
+        "link": "/api/variables/hello.md"
+      }
+    ]
+  }
+]

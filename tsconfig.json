@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "lib": [
+      "es2022"
+    ],
+    "moduleDetection": "force",
+    "baseUrl": ".",
+    "rootDir": ".",
+    "module": "NodeNext",
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./src/*"]
+    },
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "strict": true,
+    "declaration": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*",
+    "test/**/*",
+    "docs/**/*"
+  ]
+}
